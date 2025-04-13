@@ -10,3 +10,9 @@ Prueba:Caso #2
 Prueba: Caso #3
 
 findall(Price,(vehicle(_, _, sedan, Price, _)), SedanPrices),aggregate_all(sum(Price), member(Price, SedanPrices), TotalValue),Tope = 500000,(TotalValue =< Tope -> TotalValue = TotalValue ; TotalValue = Tope).
+
+Consultas Adicionales: 
+
+"Listar Referencias de un vehiculo por marca":
+
+bagof(Reference, vehicle(Brand, Reference, _, _, _), Reference).
