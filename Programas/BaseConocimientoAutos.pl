@@ -38,12 +38,12 @@ vehicles_by_brand(Brand,ListOfReferences) :-
 % Metapredicado | Generar reporte de vehiculos
 % -----------------------------------------------
 generate_report(Brand, Type, Budget, Limit, report(Vehicles, TotalValue)) :-
-    findall(vehicle(Brand, Reference, Type, Price, Year),          % Busca todos los vehiculos de una marca y tipo especifico cuyo precio sea <= al presupuesto
+    findall(vehicle(Brand, Reference, Type, Price, Year),          % Busca todos los vehiculos de una marca y tipo cuyo precio sea <= al presupuesto
         ( vehicle(Brand, Reference, Type, Price, Year),            % Estructura | 1er arg: Lo que busca | 2do arg: Donde busca | 3er arg: Donde agrega lo que encuentra
             Price =< Budget ),
             Vehicles),
     aggregate_all(sum(Price),                                      % Suma el precio de todos los vehiculos encontrados
         member(vehicle(_, _, _, Price, _), Vehicles), 
         Sum),
-    TotalValue is min(Sum, Limit). % Usar min/2 para ajustar al límite      % Ajusta el valor total al limite establecido por el cliente
+    TotalValue is min(Sum, Limit).          % Ajusta el valor total al limite establecido por el cliente
 	
