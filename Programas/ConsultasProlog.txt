@@ -1,11 +1,11 @@
-Pruba: Caso #1
+Pruba: Caso#1
 
-findall(Reference, (vehicle(toyota, Reference, suv, Price, _), Price < 30000), Results).
-bagof(Reference, (vehicle(toyota, Reference, suv, Price, _), Price < 30000), Results).
+findall(Ref, (vehicle(toyota, Ref, suv, Price, _), Price < 30000), ListToyotaSUV).
+bagof(Ref, (vehicle(toyota, Ref, suv, Price, _), Price < 30000), Toyota).
 
-Prueba: Caso #2
+Prueba:Caso #2
 
-bagof(vehicle(Type, Year, Reference), (vehicle(ford, Reference, Type, _, Year)), GroupedVehicles).
+ bagof((Type, Year), (vehicle(ford,_, Type, _, Year)), ListFord).
 
 Prueba: Caso #3
 
