@@ -1,4 +1,13 @@
 # Gestor de Ventas de Vehiculos
+## Tabla de Contenido
+1. [Introducción](#introducción)
+2. [Descripción](#descripción)
+3. [Funcionalidades](#funcionalidades)
+4. [Recomendaciones](#recomendaciones)
+5. [Video](#video-presentación-del-código)
+6. [Repositorio](#link-del-repositorio)
+7. [Autores](#autores)
+
 ## Introduccion
 <div style = "text-align: justify;">
 Esta es una práctica estudiantil, cuyo objetivo es crear, a través del Lenguaje de Programación Lógica Prolog, un sistema para la gestión del inventario de vehículos de un concesionario.  
