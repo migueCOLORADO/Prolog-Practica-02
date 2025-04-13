@@ -4,7 +4,7 @@
 % Hechos | Catalogo de Vehiculos
 % -----------------------------------------------
 vehicle(toyota, rav4, suv, 28000, 2022).
-vehicle(toyota, corrolla, suv, 22000, 2024).
+vehicle(toyota, corolla, suv, 22000, 2024).
 vehicle(dodge, charger, sedan, 1000, 1980).
 vehicle(bmw, m4, coupe, 20567, 1980).
 vehicle(bmw, x5, suv, 60000, 2021).
@@ -37,10 +37,13 @@ vehicles_by_brand(Brand,ListOfReferences) :-
 % -----------------------------------------------
 % Metapredicado | Generar reporte de vehiculos
 % -----------------------------------------------
-generate_report(Brand, Type, Budget, report(Vehicles, TotalValue)) :-
+generate_report(Brand, Type, Budget, Limit, report(Vehicles, TotalValue)) :-
     findall(vehicle(Brand, Reference, Type, Price, Year),
-        ( vehicle(Brand, Reference, Type, Price, Year), Price =< Budget ), Vehicles),
-
-    aggregate_all(sum(Price), ( member(vehicle(Brand, _, Type, Price, _), Vehicles) ), Sum),
-    ( Sum > 1000000 -> TotalValue = 1000000 ; TotalValue = Sum ).
+            ( vehicle(Brand, Reference, Type, Price, Year),
+              Price =< Budget ),
+            Vehicles),
+    aggregate_all(sum(Price), 
+                 member(vehicle(_, _, _, Price, _), Vehicles), 
+                 Sum),
+    TotalValue is min(Sum, Limit). % Usar min/2 para ajustar al límite
 	
