@@ -10,16 +10,16 @@ Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la 
 Finalmente, luego de realizar la consulta, prolog retornara al consecionario la informacion que haya encontrado sobre lo solicitado, como lo puede ser un listado o valor booleano (Verdadero o Falso).
 
 ## Funcionalidades
-1. Filtrar por tipo y presupuesto (Determina por referencia, si el presupuesto del cliente permite la compra del vehiculo).
+1. Filtrar por tipo y presupuesto (Determina por referencia; si el presupuesto del cliente permite la compra del vehículo).
 
-2. Listar los vehiculos por marca (Busca todos los vehiculos de una marca y los almacena en una lista).
+2. Listar los vehículos por marca (Busca todos los vehículos de una marca y los almacena en una lista).
 
-3. Generar reporte (Crea un reporte de vehiculos que estan dentro del presupuesto del cliente).  
+3. Generar reporte (Crea un reporte de vehículos que están dentro del presupuesto del cliente).  
 
 ## Recomendaciones
-Para garantizar una buena ejecucion y prueba de calidad de nuestro sistema, hemos diseñado una serie de pasos a ejecutar que consideramos adecuados. Estos pasos los hemos seccionado en las siguientes dos fases:
+Para garantizar una buena ejecución y prueba de calidad de nuestro sistema, hemos diseñado una serie de pasos a ejecutar que consideramos adecuados. Estos pasos los hemos seccionado en las siguientes dos fases:
 
-### Ejecucion
+### Ejecución
 Aquí es indispensable contar con un entorno de desarrollo o un compilador virtual compatible con Prolog. Nosotros recomendamos utilizar:
 
 1. **SWI-Prolog**: Este es un IDE gratuito enfocado en Prolog. 
@@ -30,9 +30,9 @@ Aquí es indispensable contar con un entorno de desarrollo o un compilador virtu
 - [Link - Compilador](https://acortar.link/mEiVrp)
 
 ### Prueba de Calidad
-Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros recomendamos que al realizar las consultas, para cada prueba, se tome el tipo de consulta que preparamos en este archivo: [Base de Conocimiento - Vehículos](Programas/ConsultasProlog.txt)
+Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros recomendamos que, al realizar las consultas; para cada prueba, se tome el tipo de consulta que preparamos en este archivo: [Base de Conocimiento - Vehículos](Programas/ConsultasProlog.txt)
 
-**Nota Importante**: Antes de dar click a la tecla "Enter", despues de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del ultimo caracter de la consulta; sin esto Prolog no procesara la consulta, e inmediatamente estara a la espera de una nueva. 
+Nota Importante: Antes de dar clic a la tecla "Enter", después de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del último carácter de la consulta; sin esto, Prolog no procesará la consulta; e inmediatamente estará a la espera de una nueva. 
 
 ## Video Presentacion del Codigo
 []
