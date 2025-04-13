@@ -6,7 +6,7 @@ Esta es una práctica estudiantil, cuyo objetivo es crear, a través del Lenguaj
 ## Descripción
 El programa está construido alrededor de un archivo de Prolog (BaseConocimientoAutos.pl) en el que se establecieron una serie de hechos (el inventario del concesionario) y de funcionalidades que le permiten al concesionario administrar su inventario de vehículos. 
 
-Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la consola aparecerá algo como "?-", que indica que se espera una consulta del usuario; allí, usando un tipo específico de consulta, el concesionario podrá verificar o hacer preguntas respecto a su inventario. Para más información ir a: [Recomendaciones](#recomendaciones).
+Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la consola aparecerá algo como "?-", que indica que se espera una consulta del usuario; allí, usando un tipo específico de consulta, el concesionario podrá verificar o hacer preguntas respecto a su inventario. Para más información ir a: [Recomendaciones](#recomendaciones)
 
 Finalmente, luego de realizar la consulta, Prolog retornará al concesionario la información que haya encontrado sobre lo solicitado, como lo puede ser un listado o un valor booleano (Verdadero o Falso).
 
