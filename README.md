@@ -20,5 +20,5 @@ Esta es una practica estudiantil, cuyo objetivo es crear, a travez del Lenguaje 
 
 
 ## Autores
-Miguel Angel Colorado Castaño <br>
+Miguel Angel Colorado Castaño
 Samuel Correa Velasquez
