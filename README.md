@@ -1,5 +1,6 @@
 # Gestor de Ventas de Vehiculos
 ## Introduccion
+<div style = "text-align: justify;">
 Esta es una practica estudiantil, cuyo objetivo es crear, a travez del Lenguaje de Programacion Logica Prolog, un sistema para la gestion del inventario de vehiculos de un concesionario.  
 
 ## Descripcion
@@ -10,6 +11,7 @@ Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la 
 Finalmente, luego de realizar la consulta, prolog retornara al consecionario la informacion que haya encontrado sobre lo solicitado, como lo puede ser un listado o valor booleano (Verdadero o Falso).
 
 ## Funcionalidades
+
 1. Filtrar por tipo y presupuesto (Determina por referencia; si el presupuesto del cliente permite la compra del vehículo).
 
 2. Listar los vehículos por marca (Busca todos los vehículos de una marca y los almacena en una lista).
@@ -43,3 +45,4 @@ Nota Importante: Antes de dar clic a la tecla "Enter", después de haber escrito
 ## Autores
 Miguel Angel Colorado Castaño <br>
 Samuel Correa Velasquez
+</div>
