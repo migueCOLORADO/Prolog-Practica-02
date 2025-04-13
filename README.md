@@ -23,16 +23,16 @@ Para garantizar una buena ejecucion y prueba de calidad de nuestro sistema, hemo
 Aquí es indispensable contar con un entorno de desarrollo o un compilador virtual compatible con Prolog. Nosotros recomendamos utilizar:
 
 1. **SWI-Prolog**: Este es un IDE gratuito enfocado en Prolog. 
-- [Descargar](https://www.swi-prolog.org/.).
+- [Link - Descarga](https://www.swi-prolog.org/.)
 - [Tutorial - Uso](https://youtu.be/hRqA1vO9nxE)
 
 2. **Online Prolog Compiler**: Este es un compilador virtual de Prolog brindado por tutorialspoint.
-- [Compilador - Link](https://acortar.link/mEiVrp)
+- [Link - Compilador](https://acortar.link/mEiVrp)
 
 ### Prueba de Calidad
 Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros recomendamos que al realizar las consultas, para cada prueba, se tome el tipo de consulta que preparamos en este archivo: [Base de Conocimiento - Vehículos](Programas/ConsultasProlog.txt)
 
-**Nota Importante**: Antes de dar click a la tecla "Enter", despues de haber escrito la consulta, *VERIFIQUE* que haya un "." seguido del ultimo caracter de la consulta; sin esto Prolog no procesara la consulta, e inmediatamente estara a la espera de una nueva. 
+**Nota Importante**: Antes de dar click a la tecla "Enter", despues de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del ultimo caracter de la consulta; sin esto Prolog no procesara la consulta, e inmediatamente estara a la espera de una nueva. 
 
 ## Video Presentacion del Codigo
 []
