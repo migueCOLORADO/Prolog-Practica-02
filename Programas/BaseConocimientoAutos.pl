@@ -39,11 +39,11 @@ vehicles_by_brand(Brand,ListOfReferences) :-
 % -----------------------------------------------
 generate_report(Brand, Type, Budget, Limit, report(Vehicles, TotalValue)) :-
     findall(vehicle(Brand, Reference, Type, Price, Year),
-            ( vehicle(Brand, Reference, Type, Price, Year),
-              Price =< Budget ),
+        ( vehicle(Brand, Reference, Type, Price, Year),
+            Price =< Budget ),
             Vehicles),
     aggregate_all(sum(Price), 
-                 member(vehicle(_, _, _, Price, _), Vehicles), 
-                 Sum),
+        member(vehicle(_, _, _, Price, _), Vehicles), 
+        Sum),
     TotalValue is min(Sum, Limit). % Usar min/2 para ajustar al límite
 	
