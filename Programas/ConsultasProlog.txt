@@ -1,9 +1,9 @@
-Pruba: Caso#1
+Pruba: Caso #1
 
 findall(Reference, (vehicle(toyota, Reference, suv, Price, _), Price < 30000), Results).
 bagof(Reference, (vehicle(toyota, Reference, suv, Price, _), Price < 30000), Results).
 
-Prueba:Caso #2
+Prueba: Caso #2
 
 bagof(vehicle(Type, Year, Reference), (vehicle(ford, Reference, Type, _, Year)), GroupedVehicles).
 
