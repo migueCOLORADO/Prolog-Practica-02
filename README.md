@@ -1,18 +1,18 @@
 # Gestor de Ventas de Vehiculos
 ## Introduccion
 <div style = "text-align: justify;">
-Esta es una practica estudiantil, cuyo objetivo es crear, a travez del Lenguaje de Programacion Logica Prolog, un sistema para la gestion del inventario de vehiculos de un concesionario.  
+Esta es una práctica estudiantil, cuyo objetivo es crear, a través del Lenguaje de Programación Lógica Prolog, un sistema para la gestión del inventario de vehículos de un concesionario.  
 
-## Descripcion
-El programa esta construido al rededor de un archivo de prolog (BaseConocimientoAutos.pl) en el que se establecieron una serie de hechos (El inventario del consecionario), y de funcionalidades que le permiten al consecionario administrar su inventariado de vehiculos. 
+## Descripción
+El programa está construido alrededor de un archivo de Prolog (BaseConocimientoAutos.pl) en el que se establecieron una serie de hechos (el inventario del concesionario) y de funcionalidades que le permiten al concesionario administrar su inventario de vehículos. 
 
-Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la consola aparecera algo como "?-", que indica que se espera una consulta del usuario; allí, usando un tipo especifico de consulta, el consecionario podra verificar o hacer preguntas respecto a su inventario. Para mas informacion ir a: [Recomendaciones](#recomendaciones).
+Al ser cargada la base de conocimiento en un IDE o un compilador virtual, en la consola aparecerá algo como "?-", que indica que se espera una consulta del usuario; allí, usando un tipo específico de consulta, el concesionario podrá verificar o hacer preguntas respecto a su inventario. Para más información ir a: [Recomendaciones](#recomendaciones).
 
-Finalmente, luego de realizar la consulta, prolog retornara al consecionario la informacion que haya encontrado sobre lo solicitado, como lo puede ser un listado o valor booleano (Verdadero o Falso).
+Finalmente, luego de realizar la consulta, Prolog retornará al concesionario la información que haya encontrado sobre lo solicitado, como lo puede ser un listado o un valor booleano (Verdadero o Falso).
 
 ## Funcionalidades
 
-1. Filtrar por tipo y presupuesto (Determina por referencia; si el presupuesto del cliente permite la compra del vehículo).
+1. Filtrar por tipo y presupuesto (Determina por referencia si el presupuesto del cliente permite la compra del vehículo).
 
 2. Listar los vehículos por marca (Busca todos los vehículos de una marca y los almacena en una lista).
 
@@ -32,17 +32,17 @@ Aquí es indispensable contar con un entorno de desarrollo o un compilador virtu
 - [Link - Compilador](https://acortar.link/mEiVrp)
 
 ### Prueba de Calidad
-Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros recomendamos que, al realizar las consultas; para cada prueba, se tome el tipo de consulta que preparamos en este archivo: [Base de Conocimiento - Vehículos](Programas/ConsultasProlog.txt)
+Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros recomendamos que, al realizar las consultas, para cada prueba se tome el tipo de consulta que preparamos en este archivo: [Tipo - Consultas](Programas/ConsultasProlog.txt)
 
-Nota Importante: Antes de dar clic a la tecla "Enter", después de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del último carácter de la consulta; sin esto, Prolog no procesará la consulta; e inmediatamente estará a la espera de una nueva. 
+**Nota Importante**: Antes de dar clic a la tecla "Enter", después de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del último carácter de la consulta; sin esto, Prolog no procesará la consulta e inmediatamente estará a la espera de una nueva. 
 
-## Video Presentacion del Codigo
+## Video Presentación del Código
 []
 
 ## Link del Repositorio
-[https://github.com/migueCOLORADO/Prolog-Practica-02.git]
+[Gestor - Concesionario](https://github.com/migueCOLORADO/Prolog-Practica-02.git)
 
 ## Autores
-Miguel Angel Colorado Castaño <br>
-Samuel Correa Velasquez
+Miguel Ángel Colorado Castaño <br>
+Samuel Correa Velásquez
 </div>
