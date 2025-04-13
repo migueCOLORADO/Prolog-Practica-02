@@ -1,18 +1,25 @@
-Pruba: Caso#1
 
+-----------------------------------------------
+Tipos de Consulta | Casos de Prueba
+-----------------------------------------------
+Prueba | Caso 01
+-----------------------------------------------
 findall(Ref, (vehicle(toyota, Ref, suv, Price, _), Price < 30000), ListToyotaSUV).
 bagof(Ref, (vehicle(toyota, Ref, suv, Price, _), Price < 30000), Toyota).
-
-Prueba:Caso #2
-
- bagof((Type, Year), (vehicle(ford,_, Type, _, Year)), ListFord).
-
-Prueba: Caso #3
-
+-----------------------------------------------
+Prueba | Caso 02 
+-----------------------------------------------
+bagof((Type, Year), (vehicle(ford,_, Type, _, Year)), ListFord).
+-----------------------------------------------
+Prueba | Caso 03
+-----------------------------------------------
 findall(Price,(vehicle(_, _, sedan, Price, _)), SedanPrices),aggregate_all(sum(Price), member(Price, SedanPrices), TotalValue),Tope = 500000,(TotalValue =< Tope -> TotalValue = TotalValue ; TotalValue = Tope).
-
-Consultas Adicionales: 
-
-"Listar Referencias de un vehiculo por marca":
-
+-----------------------------------------------
+-----------------------------------------------
+Consultas Adicionales
+-----------------------------------------------
+01 | Listar Referencias de un vehiculo por marca 
+-----------------------------------------------
 bagof(Reference, vehicle(Brand, Reference, _, _, _), Reference).
+
+
