@@ -7,10 +7,6 @@ Esta es una practica estudiantil, cuyo objetivo es crear, a travez del Lenguaje 
 
 ## Funcionalidades
 
-
-## Base de Conocimiento
-[BaseConocimientoAutos.pl]
-
 ## Recomendaciones
 Para garantizar una buena ejecucion y prueba de calidad de nuestro sistema, hemos diseñado una serie de pasos a ejecutar que consideramos adecuados. Estos pasos los hemos seccionado en las siguientes dos fases:
 
