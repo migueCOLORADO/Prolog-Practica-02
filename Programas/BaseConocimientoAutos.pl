@@ -4,7 +4,7 @@
 % Hechos | Catalogo de Vehiculos
 % -----------------------------------------------
 vehicle(toyota, rav4, suv, 28000, 2022).
-vehicle(toyota, corrolla, suv, 22000, 2024).
+vehicle(toyota, corolla, suv, 22000, 2024).
 vehicle(dodge, charger, sedan, 1000, 1980).
 vehicle(bmw, m4, coupe, 20567, 1980).
 vehicle(bmw, x5, suv, 60000, 2021).
