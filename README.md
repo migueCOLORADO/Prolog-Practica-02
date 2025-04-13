@@ -38,5 +38,5 @@ Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros 
 
 
 ## Autores
-Miguel Angel Colorado Castaño
+Miguel Angel Colorado Castaño <br>
 Samuel Correa Velasquez
