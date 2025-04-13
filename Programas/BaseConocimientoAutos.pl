@@ -11,6 +11,11 @@ vehicle(bmw, x5, suv, 60000, 2021).
 vehicle(ford, mustang, sport, 45000, 2013).
 vehicle(ford, ranger, pickup, 80000, 2026).
 vehicle(chevrolet, apache, pickup, 1200, 1960).
+vehicle(honda, civic, sedan, 25000, 2022).
+vehicle(chevrolet, silverado, pickup, 35000, 2021).
+vehicle(nissan, rogue, suv, 27000, 2023).
+vehicle(audi, a4, sedan, 40000, 2022).
+vehicle(jeep, wrangler, suv, 32000, 2023).
 
 % -----------------------------------------------
 % Metapredicados | Funcionalidades
