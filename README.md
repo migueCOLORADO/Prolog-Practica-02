@@ -46,7 +46,7 @@ Para realizar las pruebas pertinentes de la funcionalidad del sistema, nosotros 
 **Nota Importante**: Antes de dar clic a la tecla "Enter", después de haber escrito la consulta, ***VERIFIQUE*** que haya un "." seguido del último carácter de la consulta; sin esto, Prolog no procesará la consulta e inmediatamente estará a la espera de una nueva. 
 
 ## Video Presentación del Código
-[]
+(https://youtu.be/YeXWrrz5seA)
 
 ## Link del Repositorio
 [Gestor - Concesionario](https://github.com/migueCOLORADO/Prolog-Practica-02.git)
